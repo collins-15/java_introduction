@@ -12,6 +12,7 @@ public class Hello
     // Primitive types
     byte bigByte = 127;
     short bigShort = 32767;
+    System.out.println("bigShort" + bigShort);
     int bigInt = 2100000000;
     long bigLong = 2100000000000000000L;
     float bigFloat = 3.14F;
@@ -36,18 +37,26 @@ public class Hello
 
     // converting to strings
     String byteString = Byte.toString(bigByte);
+    System.out.println("byteString " + byteString);
     String shortString = Short.toString(bigByte);
+    System.out.println("shortString" + shortString);
     String intString = Integer.toString(bigInt);
+    System.out.println("shortString" + shortString);
     String longString = Long.toString(bigLong);
+    System.out.println("longString" + longString);
     String floatString = Float.toString(bigFloat);
+    System.out.println("floatString" + floatString);
     String doubleString = Double.toString(bigDouble);
+    System.out.println("doubleString" + doubleString);
     String booleanString = Boolean.toString(trueOrFalse);
-
+    System.out.println("booleanString" + booleanString);
     // casting
     double aDoubleValue = 300000000.343322;
     int douubleToInt = (int) aDoubleValue;
+    System.out.println("douubleToInt" + douubleToInt);
 
     int stringToInt = Integer.parseInt(intString);
+    System.out.println("stringToInt" + stringToInt);
     
     
  }
